@@ -32,7 +32,7 @@ A: Within seventy-two hours of becoming aware of the breach [1].
 
 ## Architecture
 
-![PolicyDelta architecture](docs/architecture.png)
+![PolicyDelta architecture](docs/architecture.jpeg)
 
 ## How a question is answered
 
