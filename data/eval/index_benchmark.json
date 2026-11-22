@@ -1,0 +1,99 @@
+{
+  "real_136_chunks": [
+    {
+      "index": "Exact (Flat)",
+      "setting": "-",
+      "build_s": 0.0,
+      "recall@5": 1.0,
+      "ms_per_query": 0.307,
+      "size_mb": 0.2,
+      "golden_hit@5": "21 of 24"
+    },
+    {
+      "index": "HNSW",
+      "setting": "efSearch=16",
+      "build_s": 0.02,
+      "recall@5": 1.0,
+      "ms_per_query": 0.147,
+      "size_mb": 0.2,
+      "golden_hit@5": "21 of 24"
+    },
+    {
+      "index": "HNSW",
+      "setting": "efSearch=64",
+      "build_s": 0.02,
+      "recall@5": 1.0,
+      "ms_per_query": 0.085,
+      "size_mb": 0.2,
+      "golden_hit@5": "21 of 24"
+    },
+    {
+      "index": "IVF",
+      "setting": "nprobe=1 of 4",
+      "build_s": 0.03,
+      "recall@5": 0.75,
+      "ms_per_query": 0.063,
+      "size_mb": 0.2,
+      "golden_hit@5": "17 of 24"
+    },
+    {
+      "index": "IVF",
+      "setting": "nprobe=2 of 4",
+      "build_s": 0.03,
+      "recall@5": 0.942,
+      "ms_per_query": 0.029,
+      "size_mb": 0.2,
+      "golden_hit@5": "20 of 24"
+    }
+  ],
+  "simulated_50k_vectors": [
+    {
+      "index": "Exact (Flat)",
+      "setting": "-",
+      "build_s": 0.07,
+      "recall@5": 1.0,
+      "ms_per_query": 9.396,
+      "size_mb": 76.8
+    },
+    {
+      "index": "HNSW",
+      "setting": "efSearch=16",
+      "build_s": 7.46,
+      "recall@5": 0.94,
+      "ms_per_query": 0.109,
+      "size_mb": 90.4
+    },
+    {
+      "index": "HNSW",
+      "setting": "efSearch=64",
+      "build_s": 7.46,
+      "recall@5": 0.994,
+      "ms_per_query": 0.174,
+      "size_mb": 90.4
+    },
+    {
+      "index": "IVF",
+      "setting": "nprobe=1 of 256",
+      "build_s": 1.43,
+      "recall@5": 0.798,
+      "ms_per_query": 0.097,
+      "size_mb": 77.6
+    },
+    {
+      "index": "IVF",
+      "setting": "nprobe=8 of 256",
+      "build_s": 1.43,
+      "recall@5": 1.0,
+      "ms_per_query": 0.284,
+      "size_mb": 77.6
+    },
+    {
+      "index": "IVF",
+      "setting": "nprobe=32 of 256",
+      "build_s": 1.43,
+      "recall@5": 1.0,
+      "ms_per_query": 1.006,
+      "size_mb": 77.6
+    }
+  ]
+}

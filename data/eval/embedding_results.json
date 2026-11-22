@@ -1,0 +1,22 @@
+{
+  "model": "sentence-transformers/all-MiniLM-L6-v2",
+  "dimensions": 384,
+  "A": {
+    "questions": 24,
+    "hit@1": "14 of 24 (58%)",
+    "hit@5": "22 of 24 (92%)",
+    "answer_phrases_in_top5": "28 of 32 (88%)",
+    "chunks": 165,
+    "embedding_seconds": 11.1,
+    "chunks_longer_than_model_reads": 0
+  },
+  "B": {
+    "questions": 24,
+    "hit@1": "17 of 24 (71%)",
+    "hit@5": "21 of 24 (88%)",
+    "answer_phrases_in_top5": "24 of 32 (75%)",
+    "chunks": 136,
+    "embedding_seconds": 9.6,
+    "chunks_longer_than_model_reads": 75
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "action": "skipped",
+  "reason": "same model and same chunks",
+  "build_seconds": 0.0,
+  "chunks_stored": 136,
+  "golden_hit@5": "21 of 24",
+  "same_top5_as_exact_numpy": "24 of 24",
+  "avg_search_ms": 1.52,
+  "golden_hit@5_primary_only": "22 of 24",
+  "secondary_chunks_returned_by_primary_filter": 0
+}

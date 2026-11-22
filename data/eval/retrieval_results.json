@@ -1,0 +1,58 @@
+[
+  {
+    "version": "1. Vector only (baseline)",
+    "hit@1": "17 of 24 (71%)",
+    "hit@5": "21 of 24 (88%)",
+    "answer_phrases_top5": "24 of 32 (75%)",
+    "MRR": 0.772,
+    "avg_ms": 7.6,
+    "missed_questions": [
+      "q09",
+      "q12",
+      "q24"
+    ]
+  },
+  {
+    "version": "2. Hybrid (vector + BM25)",
+    "hit@1": "17 of 24 (71%)",
+    "hit@5": "20 of 24 (83%)",
+    "answer_phrases_top5": "25 of 32 (78%)",
+    "MRR": 0.764,
+    "avg_ms": 10.1,
+    "missed_questions": [
+      "q09",
+      "q11",
+      "q12",
+      "q24"
+    ]
+  },
+  {
+    "version": "3. Hybrid + re-ranking",
+    "hit@1": "11 of 24 (46%)",
+    "hit@5": "20 of 24 (83%)",
+    "answer_phrases_top5": "26 of 32 (81%)",
+    "MRR": 0.626,
+    "avg_ms": 2153.0,
+    "missed_questions": [
+      "q03",
+      "q09",
+      "q12",
+      "q24"
+    ]
+  },
+  {
+    "version": "(extra) Keyword only (BM25)",
+    "hit@1": "11 of 24 (46%)",
+    "hit@5": "19 of 24 (79%)",
+    "answer_phrases_top5": "26 of 32 (81%)",
+    "MRR": 0.576,
+    "avg_ms": 0.3,
+    "missed_questions": [
+      "q04",
+      "q09",
+      "q11",
+      "q12",
+      "q24"
+    ]
+  }
+]

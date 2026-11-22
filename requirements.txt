@@ -1,0 +1,15 @@
+pypdf
+numpy
+fastembed
+faiss-cpu
+qdrant-client
+rank-bm25
+groq
+python-dotenv
+ragas
+langchain-openai
+langchain-community
+fastapi
+uvicorn
+python-multipart
+httpx

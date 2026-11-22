@@ -1,0 +1,16 @@
+{
+  "A": {
+    "chunks": 165,
+    "average_size": 979,
+    "answers_kept_whole": "38 of 38",
+    "chunks_starting_mid_sentence": "141 of 165",
+    "chunks_with_rule_heading": "0 of 165"
+  },
+  "B": {
+    "chunks": 136,
+    "average_size": 1010,
+    "answers_kept_whole": "38 of 38",
+    "chunks_starting_mid_sentence": "25 of 136",
+    "chunks_with_rule_heading": "136 of 136"
+  }
+}

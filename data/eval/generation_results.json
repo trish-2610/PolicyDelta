@@ -1,0 +1,12 @@
+{
+  "answered_with_valid_citations": "10 of 30",
+  "cited_the_right_source": "10 of 30",
+  "made_up_citations": 0,
+  "said_not_in_documents_when_true": "4 of 4",
+  "said_not_in_documents_wrongly": 4,
+  "fallback_used": "3 of 34",
+  "stopped_by_gatekeeper": "2 of 2",
+  "avg_seconds_new_question": 11.69,
+  "seconds_repeated_question_cache": 0.0,
+  "repeated_question_from_cache": true
+}

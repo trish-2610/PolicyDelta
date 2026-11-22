@@ -1,0 +1,29 @@
+[
+  {
+    "version": "Vector search only",
+    "faithfulness": 0.917,
+    "answer_relevancy": null,
+    "context_recall": 0.917,
+    "context_precision": 0.698,
+    "avg_latency_s": 754.76,
+    "scored": "0/24"
+  },
+  {
+    "version": "+ Hybrid search (BM25)",
+    "faithfulness": null,
+    "answer_relevancy": null,
+    "context_recall": null,
+    "context_precision": null,
+    "avg_latency_s": 11.21,
+    "scored": "0/24"
+  },
+  {
+    "version": "+ Query rewriting fallback",
+    "faithfulness": 0.923,
+    "answer_relevancy": null,
+    "context_recall": 1.0,
+    "context_precision": 0.766,
+    "avg_latency_s": 10.88,
+    "scored": "0/24"
+  }
+]
